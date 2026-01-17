@@ -1,4 +1,4 @@
-const API_KEY = "7b1725ca29eb78687256f49a37821f0a"; // ← DEFAULT PLACE
+const API_KEY = "7b1725ca29eb78687256f49a37821f0"; // ← DEFAULT PLACE
 
 export async function fetchWeather(city) {
   const response = await fetch(
@@ -19,3 +19,4 @@ export async function fetchWeather(city) {
     wind: data.wind.speed
   };
 }
+
